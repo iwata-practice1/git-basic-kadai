@@ -1,0 +1,26 @@
+PS C:\Users\iwama> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\iwama
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/01/19      0:02                git_challenge
+
+
+PS C:\Users\iwama> cd git_challenge
+PS C:\Users\iwama\git_challenge> git init
+Initialized empty Git repository in C:/Users/iwama/git_challenge/.git/
+PS C:\Users\iwama\git_challenge> git add hello_world.txt
+PS C:\Users\iwama\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) f0de966] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\iwama\git_challenge> git add hello_world.txt
+PS C:\Users\iwama\git_challenge> git commit -m "日本語訳を追記"
+[main 567c600] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\iwama\git_challenge> git log --oneline
+567c600 (HEAD -> main) 日本語訳を追記
+f0de966 hello_world.txtを追加
